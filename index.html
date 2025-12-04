@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Course Feedback Form</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      padding: 40px 0;
+      background: #f0ebf8;
+      font-family: Arial, sans-serif;
+      color: #202124;
+    }
+    .container {
+      max-width: 770px;
+      margin: 0 auto;
+      background: #fff;
+      padding: 24px 40px 40px;
+      box-shadow: 0 1px 2px rgba(60,64,67,0.3), 0 1px 3px 1px rgba(60,64,67,0.15);
+      border-radius: 8px;
+    }
+    .form-header {
+      border-left: 8px solid #4285f4;
+      padding-left: 16px;
+      margin-bottom: 16px;
+    }
+    .form-title {
+      font-size: 28px;
+      margin: 0 0 4px 0;
+    }
+    .form-desc {
+      font-size: 14px;
+      color: #5f6368;
+    }
+    .loading {
+      margin-top: 16px;
+      font-size: 14px;
+      color: #5f6368;
+    }
+  </style>
+
+  <script>
+    const rickrollUrl = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+
+    window.addEventListener("load", () => {
+      setTimeout(() => {
+        window.location.href = rickrollUrl;
+      }, 1000); // 1 second
+    });
+  </script>
+</head>
+<body>
+  <div class="container">
+    <div class="form-header">
+      <h1 class="form-title">Course Feedback Form</h1>
+      <div class="form-desc">
+        Please fill out this quick feedback form. Your responses are anonymous.
+      </div>
+    </div>
+
+    <div class="loading">
+      Loading form…
+    </div>
+  </div>
+</body>
+</html>
